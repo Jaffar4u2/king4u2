@@ -1,0 +1,86 @@
+# Reading C:/New Folder/tcl/vsim/pref.tcl 
+# //  ModelSim SE 6.5 Jan 22 2009 
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile {D:/VIVEKKUMAR 2012-2013/FINAL/ITVL02(Final)/CODING/RTOPMODULE.V} 
+vlog -reportprogress 300 -work work {D:/VIVEKKUMAR 2012-2013/FINAL/ITVL02(Final)/CODING/2 pulse gen.v}
+# Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+# -- Compiling module VPulse_Gen
+# 
+# Top level modules:
+# 	VPulse_Gen
+vlog -reportprogress 300 -work work {D:/VIVEKKUMAR 2012-2013/FINAL/ITVL02(Final)/CODING/CLUSTER.V}
+# Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+# -- Compiling module Rcluster
+# 
+# Top level modules:
+# 	Rcluster
+vlog -reportprogress 300 -work work {D:/VIVEKKUMAR 2012-2013/FINAL/ITVL02(Final)/CODING/D flip flop.v}
+# Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+# -- Compiling module VDFF
+# 
+# Top level modules:
+# 	VDFF
+vlog -reportprogress 300 -work work {D:/VIVEKKUMAR 2012-2013/FINAL/ITVL02(Final)/CODING/decoder.v}
+# Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+vlog -reportprogress 300 -work work {D:/VIVEKKUMAR 2012-2013/FINAL/ITVL02(Final)/CODING/LATCH.V}
+# Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+# -- Compiling module Rlatch
+# 
+# Top level modules:
+# 	Rlatch
+vlog -reportprogress 300 -work work {D:/VIVEKKUMAR 2012-2013/FINAL/ITVL02(Final)/CODING/mux.v}
+# Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+# -- Compiling module Vmux21
+# 
+# Top level modules:
+# 	Vmux21
+vlog -reportprogress 300 -work work {D:/VIVEKKUMAR 2012-2013/FINAL/ITVL02(Final)/CODING/RTOPMODULE.V}
+# Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+# -- Compiling module VRTOP
+# 
+# Top level modules:
+# 	VRTOP
+vlog -reportprogress 300 -work work {D:/VIVEKKUMAR 2012-2013/FINAL/ITVL02(Final)/CODING/scan flip flop.v}
+# Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+# -- Compiling module VScan_Flipflop
+# 
+# Top level modules:
+# 	VScan_Flipflop
+vlog -reportprogress 300 -work work {D:/VIVEKKUMAR 2012-2013/FINAL/ITVL02(Final)/CODING/signature register.v}
+# Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+# -- Compiling module VSignature_register
+# 
+# Top level modules:
+# 	VSignature_register
+vsim -gui -novopt work.VRTOP
+# vsim -gui -novopt work.VRTOP 
+# Refreshing D:\VIVEKKUMAR 2012-2013\FINAL\ITVL02(Final)\CODING\work.VRTOP
+# Loading work.VRTOP
+# Refreshing D:\VIVEKKUMAR 2012-2013\FINAL\ITVL02(Final)\CODING\work.VPulse_Gen
+# Loading work.VPulse_Gen
+# Refreshing D:\VIVEKKUMAR 2012-2013\FINAL\ITVL02(Final)\CODING\work.VDFF
+# Loading work.VDFF
+# Refreshing D:\VIVEKKUMAR 2012-2013\FINAL\ITVL02(Final)\CODING\work.Vmux21
+# Loading work.Vmux21
+# Refreshing D:\VIVEKKUMAR 2012-2013\FINAL\ITVL02(Final)\CODING\work.decoder
+# Loading work.decoder
+# Refreshing D:\VIVEKKUMAR 2012-2013\FINAL\ITVL02(Final)\CODING\work.Rcluster
+# Loading work.Rcluster
+# Refreshing D:\VIVEKKUMAR 2012-2013\FINAL\ITVL02(Final)\CODING\work.VScan_Flipflop
+# Loading work.VScan_Flipflop
+# Refreshing D:\VIVEKKUMAR 2012-2013\FINAL\ITVL02(Final)\CODING\work.Rlatch
+# Loading work.Rlatch
+# Refreshing D:\VIVEKKUMAR 2012-2013\FINAL\ITVL02(Final)\CODING\work.VSignature_register
+# Loading work.VSignature_register
